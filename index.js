@@ -14,15 +14,20 @@ const questions = [
     },
 
     {
+        type: "input",
+        name: "description",
+        message: "What is your project description"
+
+    },
+
+    {
+        
 
     },
     {
 
     },
-    {
 
-    },
-    
 
 
 
