@@ -32,15 +32,52 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+
+  if (license === "Apache") {  
+    return '[Apache License](https://opensource.org/licenses/Apache-2.0)' 
+
+  }
+  else if (license === "Boost") {
+    return '[Boost License](https://www.boost.org/LICENSE_1_0.txt)'
+
+  }
+  else if (license === "Eclipse ") {
+    return '[Eclipse License](https://opensource.org/licenses/EPL-1.0)'
+    
+  }
+  else if (license === "IBM") {
+    return '[IBM License](https://opensource.org/licenses/IPL-1.0)'
+    
+  }
+  else if (license === "ISC") {
+    return '[ISC License](https://opensource.org/licenses/ISC)'
+    
+  }
+  else if (license === "MIT") {
+    return '[MIT License](https://opensource.org/licenses/MIT)'
+    
+  }
+  else {
+    return ""
+  }
+
+}
+
+
+/** this repository is licensed under the term of blank license then link to blank license */
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  
+  return `this repository is licensed under the term of ${renderLicenseLink(license)}`
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `# ${data.title}  ${renderLicenseBadge(data.license)} 
+
 
   ## Description
   
@@ -82,7 +119,8 @@ function generateMarkdown(data) {
   
   ## License
   
- ${renderLicenseBadge(data.license)}
+  ${renderLicenseSection(data.license)}
+
   ---
   
   🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
