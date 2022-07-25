@@ -21,10 +21,17 @@ const questions = [
     },
 
     {
-        
+        type: "input",
+        name: "installation",
+        message: "How do you install your project"
 
     },
+
     {
+        type: "list",
+        name: "license",
+        message: "Choose a license from the following list",
+        choices: ["Apache", "Boost","Eclipse", "IBM", "ISC", "MIT"]
 
     },
 
