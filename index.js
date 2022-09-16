@@ -16,14 +16,14 @@ const questions = [
     {
         type: "input",
         name: "description",
-        message: "What is your project description"
+        message: "What is your project description?"
 
     },
 
     {
         type: "input",
         name: "installation",
-        message: "How do you install your project"
+        message: "How do you install your project?"
 
     },
 
@@ -37,14 +37,14 @@ const questions = [
     {
         type: "input",
         name: "credits",
-        message: "Were there any websites that were referenced when creating this application"
+        message: "If any websites or tutorials were referenced when creating this application list them here."
 
     },
 
     {
         type: "input",
         name: "contributing",
-        message: "Are there any opportunities for others to contribute to this application?"
+        message: "If there are any opportunities for others to contribute to this application list them here."
 
     },
 
@@ -67,7 +67,7 @@ const questions = [
     {
         type: "input",
         name: "email",
-        message: "What is your email"
+        message: "What is your email?"
     },
 
     {
