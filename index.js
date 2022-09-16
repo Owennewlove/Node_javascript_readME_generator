@@ -28,6 +28,35 @@ const questions = [
     },
 
     {
+        type: "input",
+        name: "usage",
+        message: "What are the steps to using your application?"
+        
+    },
+
+    {
+        type: "input",
+        name: "credits",
+        message: "Were there any websites that were referenced when creating this application"
+
+    },
+
+    {
+        type: "input",
+        name: "contributing",
+        message: "Are there any opportunities for others to contribute to this application?"
+
+    },
+
+    {
+        type: "input",
+        name: "test",
+        message: "What are the test insructions?"
+
+    },
+
+
+    {
         type: "list",
         name: "license",
         message: "Choose a license from the following list",
@@ -35,10 +64,17 @@ const questions = [
 
     },
 
+    {
+        type: "input",
+        name: "email",
+        message: "What is your email"
+    },
 
-
-
-
+    {
+        type: "input",
+        name: "github",
+        message: "What is your GitHub username?"
+    }
 
 
 

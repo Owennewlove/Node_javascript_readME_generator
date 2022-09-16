@@ -22,21 +22,20 @@ Type node index.js into the terminal
 
 ## Usage
 
-The following links lead you to the github repository used when making this website as well as the website itself:
+The following links lead you to the github repository used when making this website:
 
-https://github.com/Owennewlove/git_html_css_javascript_serverside_API_weather_dashboard.git
 
-https://owennewlove.github.io/git_html_css_javascript_serverside_API_weather_dashboard/
+https://github.com/Owennewlove/Node_javascript_readME_generator.git
+
 
     ```md
-![alt text](./assets/images/06-server-side-apis-homework-demo.png)
+![alt text](./images/Screen%20Shot%202022-09-16%20at%204.39.44%20PM.png)
 
     ```
 
 
 ## Credits
-
-The following are links referenced when creating this website. 
+ 
 
 N/A
 

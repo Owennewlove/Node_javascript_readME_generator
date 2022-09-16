@@ -100,6 +100,8 @@ function generateMarkdown(data) {
    
   ## Usage
   
+  ${data.usage}
+
   Provide instructions and examples for use. Include screenshots as needed.
   
   To add a screenshot, create an assets/images folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
@@ -109,6 +111,8 @@ function generateMarkdown(data) {
      
   
   ## Credits
+
+  ${data.credits}
   
   List your collaborators, if any, with links to their GitHub profiles.
   
@@ -135,12 +139,25 @@ function generateMarkdown(data) {
   If your project has a lot of features, list them here.
   
   ## How to Contribute
+
+  ${data.contributing}
   
   If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
   
+
   ## Tests
+
+  ${data.test}
   
   Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+
+  ## Questions
+
+  If there are any questions about the application, please reference the following.
+
+  Email: ${data.email}
+  GitHub: ${data.github} (https://github.com/${data.github})
+
 
 
 `;
