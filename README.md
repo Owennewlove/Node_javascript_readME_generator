@@ -24,8 +24,8 @@ Type node index.js into the terminal
 
 The following links lead you to the github repository used when making this website:
 
+https://github.com/Owennewlove/Node_javascript_readME_generator
 
-https://github.com/Owennewlove/Node_javascript_readME_generator.git
 
 
     ```md
